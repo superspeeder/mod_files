@@ -1,1 +1,38 @@
-{}
+{
+  "items": [
+    {
+      "name": "basic_i_0",
+      "tab": "minecraft:misc"
+    },
+    {
+      "name": "basic_food",
+      "tab": "minecraft:food",
+      "food": {
+        "saturation": 2,
+        "hunger": 2,
+      }
+    },
+    {
+      "name": "basic_pick",
+      "tab": "minecraft:tools",
+      "tool": {
+        "type": "minecraft:pickaxe",
+        "material": {
+          "speed": 10,
+          "mininglevel": 3
+        }
+      }
+    },
+    {
+      "name": "transformative_powder",
+      "tab": "minecraft:tools",
+      "actions": {
+        "use_on_block": {
+          "recipe_handlers:transmutation": {
+            "input": "blockIn",
+          }
+        }
+      }
+    }
+  ]
+}
