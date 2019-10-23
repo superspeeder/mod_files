@@ -1,1 +1,30 @@
-
+{
+  "recipe_handlers": [
+    {
+      "name": "transmutation",
+      "factory_specs": {
+        "input": {
+          "Block": 1
+        },
+        "output": {
+          "Block": 1
+        }
+      },
+      "crafting_method": {
+        "type": "in-world",
+        "effect": {
+          "action": "replace_block",
+          "pos": {
+            "type": "craft-specific-input",
+            "input-type": "blockstate",
+            "changes": ["#getPos"]
+          },
+          "new-block": {
+            "input": "from-recipe"
+            "output": "recipe-output"
+          },
+          "does-drop-block": false
+        }
+      }
+    }
+}
