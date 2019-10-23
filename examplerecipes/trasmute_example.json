@@ -1,2 +1,5 @@
 {
+  "type": "modmaker:transmutation",
+  "input": "minecraft:cobblestone",
+  "output": "mineraft:netherrack"
 }
