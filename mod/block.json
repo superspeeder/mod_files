@@ -1,2 +1,26 @@
 {
+  "blocks": [
+    {
+      "name": "grinder",
+      "flags": [
+        "gui",
+        "inventory",
+        "fe_storage",
+        "fe_consumer",
+        "crafting_mechanism"
+      ],
+      "tab": "minecraft:decoration",
+      "gui": {
+        "generateFromContainerAndFlags": true
+      },
+      "inventory": {
+        "template": "machine",
+        "template_inputs": {
+          "inputs_item": 1,
+          "outputs_item": 2,
+          "displayEnergyStorageBar": true,
+          "useArrow": true
+        }
+      }
+      
 }
